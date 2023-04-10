@@ -37,7 +37,7 @@ Apply Javascript to build a web application (Find Your Hat game) from scratch, u
 
 - When the character gets the hat, output “Congrats, you found your hat!” and and the game ends
 
-- <span style = 'color:gold'>**We were allow to improvise without affecting assestment criteria. As a result, I have slightly modified the prompt output messages to better align with the game's backdrop storyline ** </span>
+- <span style = 'color:gold'>**We were allow to improvise without affecting assessment criteria. As a result, I have slightly modified the prompt output messages to better align with the game's backdrop storyline ** </span>
 
 
 
