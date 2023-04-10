@@ -67,6 +67,28 @@ function getNextPosition(direction, position) {
   }
 }
 
+
+//Avatar movement keys
+function getNextPosition(direction, position) {
+  switch (direction.toLowerCase()) {
+    case 'u': //to allow single letter input
+    case 'up': //this is full text input
+      return [position[0] - 1, position[1]];
+    case 'r': //to allow single letter input
+    case 'right':
+      return [position[0], position[1] + 1];
+    case 'd': //to allow single letter input
+    case 'down':
+      return [position[0] + 1, position[1]];
+    case 'l': //to allow single letter input
+    case 'left':
+      return [position[0], position[1] - 1];
+    default:
+      return position;
+  }
+}
+
+
 //checks if the avatar is out of bounds
 function isOutOfBounds(position, height, width) {
   return (
@@ -123,27 +145,6 @@ function playGame() {
     playerPosition = nextPosition;
   }
 }
-
-//Avatar movement keys
-function getNextPosition(direction, position) {
-  switch (direction.toLowerCase()) {
-    case 'u': //to allow single letter input
-    case 'up': //this is full text input
-      return [position[0] - 1, position[1]];
-    case 'r': //to allow single letter input
-    case 'right':
-      return [position[0], position[1] + 1];
-    case 'd': //to allow single letter input
-    case 'down':
-      return [position[0] + 1, position[1]];
-    case 'l': //to allow single letter input
-    case 'left':
-      return [position[0], position[1] - 1];
-    default:
-      return position;
-  }
-}
-
 
 // marking x as red on the game board
 function printField(field) {
