@@ -74,7 +74,7 @@ const col = 10;
 
 ## **Reflect** on the following questions in your readme file
 
-Q1. What did you like about this project?
+### Q1. What did you like about this project?
 Ans: While coding this game, it brought back memories of dial-up modem (from 9600 baud rate onwards. [soundbite](https://youtu.be/QDS4B0mM-ew)) when the 'Web' was more commonly referred to as Dial-up and not as the Internet. The 'Internet' term came later for where I was from (Singapore).
 
 ![](https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNTYyODQwMi9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY1MTk0MDY0OH0.gdAYFls9prmRxcnpaB_QU3Gs8Naj4i6iZ7Uc-1FxdEc/img.jpg?width=980)
@@ -91,7 +91,7 @@ With this project challenge, and given the limitation of available time per the 
 
 
 
-Q2. What did you struggle with in this project?
+### Q2. What did you struggle with in this project?
 Ans: working with [Math.random() method](https://www.w3schools.com/js/js_random.asp), to incorporate random holes, was not something we were taught in class. Considerable reading, followed by trial and error was needed to get the desired outcome 
 
 
