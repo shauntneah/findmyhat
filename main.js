@@ -51,23 +51,6 @@ function printField(field) {
   field.forEach(row => console.log(row.join('')));
 }
 
-//setup the avatar movement
-function getNextPosition(direction, position) {
-  switch (direction) {
-    case 'up':
-      return [position[0] - 1, position[1]];
-    case 'right':
-      return [position[0], position[1] + 1];
-    case 'down':
-      return [position[0] + 1, position[1]];
-    case 'left':
-      return [position[0], position[1] - 1];
-    default:
-      return position;
-  }
-}
-
-
 //Avatar movement keys
 function getNextPosition(direction, position) {
   switch (direction.toLowerCase()) {
